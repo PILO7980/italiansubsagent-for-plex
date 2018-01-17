@@ -25,7 +25,7 @@ ITASA_SUBTITLE_DOWNLOAD = 'https://api.italiansubs.net/api/rest/subtitles/downlo
 
 
 def Start():
-    HTTP.CacheTime = CACHE_1DAY * 7
+    HTTP.CacheTime = CACHE_1HOUR
     Log.Debug('ItaSubsAgent started!')
     HTTP.Headers['User-Agent'] = 'ItalianSubs Plugin for Plex (v2)'
 
